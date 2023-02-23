@@ -31,16 +31,7 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@twctvnews/live)
-        EOL
-    - name: Get 08.m3u8
-      run: |
-        touch ./08.m3u8
-        sudo cat >./08.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=uDqQo8a7Xmk)
-        EOL		
+        EOL	
     - name: Get 09.m3u8
       run: |
         touch ./09.m3u8
@@ -59,16 +50,24 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@cts_drama/live)
         EOL 
-    - name: Get 13.m3u8
+    - name: Get 24.m3u8
       run: |
-        touch ./13.m3u8
-        sudo cat >./13.m3u8 <<EOL
+        touch ./24.m3u8
+        sudo cat >./24.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCXgIO9jJVsX5_2ideiSkfvA/live)
-        EOL
-        
+        $(yt-dlp --print urls https://www.youtube.com/@momokidsYT/live)
+        EOL  
+    - name: Get 25.m3u8
+      run: |
+        touch ./25.m3u8
+        sudo cat >./25.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@yoyotvebc/live)
+        EOL    
     - name: Get 14.m3u8
       run: |
         touch ./14.m3u8
