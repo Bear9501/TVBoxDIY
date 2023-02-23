@@ -68,6 +68,15 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@cts_drama/live)
         EOL
+    - name: Get 23.m3u8
+      run: |
+        touch ./23.m3u8
+        sudo cat >./23.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=d8X_G4NyMbk)
+        EOL		
     - name: Get 24.m3u8
       run: |
         touch ./24.m3u8
@@ -111,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=4200000
-        $(yt-dlp --print urls ttps://www.youtube.com/watch?v=MIqUplvSRWA)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=MIqUplvSRWA)
         EOL
     - name: Get 47.m3u8
       run: |
