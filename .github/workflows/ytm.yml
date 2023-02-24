@@ -240,7 +240,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=yuhgIlXwPh8)
         EOL
-        # 60東森購物5台
+        # 60momo購物1台
     - name: Get 60.m3u8
       run: |
         touch ./60.m3u8
@@ -248,7 +248,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=u0NYyH3ZesE)
+        $(yt-dlp --print urls https://www.youtube.com/@momoch4812/live)
         EOL
 
     - name: git add
