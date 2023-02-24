@@ -222,7 +222,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=yuhgIlXwPh8)
         EOL
-		- name: Get 59.m3u8
+    - name: Get 59.m3u8
       run: |
         touch ./59.m3u8
         sudo cat >./59.m3u8 <<EOL
