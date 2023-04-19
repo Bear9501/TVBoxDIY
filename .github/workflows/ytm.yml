@@ -257,7 +257,7 @@ jobs:
         sudo cat >./a2.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1280000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=Se2WAmxN_R4)
         EOL	        
 
