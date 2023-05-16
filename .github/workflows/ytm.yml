@@ -22,6 +22,16 @@ jobs:
       run: |
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
+        # 00 no signal 
+    - name: Get 00.m3u8
+      run: |
+        touch ./00.m3u8
+        sudo cat >./00.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=XMXEnMfDlzs)
+        EOL
         # 01中視新聞台	
     - name: Get 01.m3u8
       run: |
