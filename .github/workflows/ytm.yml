@@ -32,7 +32,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@twctvnews/live)
         EOL
-        # 02 靖天電視
+        # 02 萬秀豬王
     - name: Get 02.m3u8
       run: |
         touch ./02.m3u8
@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@user-ru4oy4fp1u/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=uyeL8L88tGA)
         EOL
         # 03 TaiwanPlus
     - name: Get 03.m3u8
