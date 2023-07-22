@@ -70,7 +70,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=d8X_G4NyMbk)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=OrM6wUdP6Mo)
         EOL		
         # 24 momokids親子台
     - name: Get 24.m3u8
@@ -80,7 +80,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@momokidsYT/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=eJu0PrOu-2g)
         EOL
         # 25 YOYO TV
     - name: Get 25.m3u8
@@ -100,7 +100,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCiolqpxuocdomP4hPGfn_-A/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=_Vlzn9qAHD4)
         EOL
         # 35 momo購物2台
     - name: Get 35.m3u88
@@ -140,7 +140,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@globalnewstw/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=B7Zp3d6xXWw)
         EOL
         # 51 東森新聞台
     - name: Get 51.m3u8
@@ -210,7 +210,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCuzqko_GKcj9922M1gUo__w/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=QSVlxm1ObkE)
         EOL
         # 57 東森財經新聞   	
     - name: Get 57.m3u8
@@ -260,7 +260,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@NTDAPTV/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=WIhgU_mc05A)
         EOL	
 
     - name: git add
