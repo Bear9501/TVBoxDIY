@@ -230,7 +230,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=yuhgIlXwPh8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=7IyxOiGMLgw)
         EOL
         # 59 鏡新聞
     - name: Get 59.m3u8
