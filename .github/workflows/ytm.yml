@@ -150,7 +150,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://m.youtube.com/watch?v=S5WOGu2HSes)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=2dfAzcDf8Zg)
         EOL
         # 52 中天新聞台
     - name: Get 52.m3u8
