@@ -90,7 +90,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=_gksNoedJ7o)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=6UHAm9rMZTo)
         EOL
         # 34 東森購物2台
     - name: Get 34.m3u8
