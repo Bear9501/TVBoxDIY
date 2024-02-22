@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=uyeL8L88tGA)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=ADDSmXoPDY8)
         EOL
         # 03 TaiwanPlus
     - name: Get 03.m3u8
@@ -70,7 +70,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=iVYWxIBioJ4)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=3Z-te47b2z4)
         EOL		
         # 24 momokids親子台
     - name: Get 24.m3u8
