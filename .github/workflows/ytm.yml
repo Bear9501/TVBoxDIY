@@ -70,7 +70,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=3Z-te47b2z4)
+        $(yt-dlp --print urls https://www.youtube.com/@disneyjunior/live)
         EOL		
         # 24 momokids親子台
     - name: Get 24.m3u8
@@ -90,7 +90,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=6UHAm9rMZTo)
+        $(yt-dlp --print urls https://www.youtube.com/@yoyotvebc/live)
         EOL
         # 34 東森購物2台
     - name: Get 34.m3u8
