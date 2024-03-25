@@ -260,7 +260,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=WIhgU_mc05A)
+        $(yt-dlp --print urls https://www.youtube.com/@NTDAPTV/live)
         EOL	
 
     - name: git add
