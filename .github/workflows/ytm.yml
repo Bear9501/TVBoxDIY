@@ -150,7 +150,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=2dfAzcDf8Zg)
+        $(yt-dlp --print urls https://www.youtube.com/@newsebc/live)
         EOL
         # 52 中天新聞台
     - name: Get 52.m3u8
@@ -200,7 +200,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=m_dhMSvUCIc)
+        $(yt-dlp --print urls https://www.youtube.com/@TVBSNEWS01/live)
         EOL 
         # 56 TVBS
     - name: Get 56.m3u8
