@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1713399227/ei/WxEgZpLBAYWAybgPj_yMiAU/ip/172.183.148.20/id/m_dhMSvUCIc.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr5---sn-vgqsrn67.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9fwYTOW5Bg99bA0uswwyuHI6j776s50sf/vprv/1/playlist_type/DVR/initcwndbps/498750/mh/V0/mm/44/mn/sn-vgqsrn67/ms/lva/mv/m/mvi/5/pl/15/dover/11/pacing/0/keepalive/yes/mt/1713377313/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhANPbw0PV8AUpCMsj50pAR3yuMuYN8MY1BnvV0JVFC_LdAiEAqa5aVp2QJzxzYGmn1zIBEXX34SXQVsY3ooEHLO80Pr4%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRAIgEMMjk_onItYSJ-bv31tTVGvuFho4w5HUS1AdSrMdW28CIBe-ooMjwhw4zb06_mJhsuoDFduPGePB3u2vg2UcZfPa/playlist/index.m3u8
+
 EOL 
 # 56 TVBS
