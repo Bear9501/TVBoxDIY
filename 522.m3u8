@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1713422811/ei/e20gZpL2DMbEzN0P9LqS8Ag/ip/172.183.51.112/id/WPfPjbOLNfE.5/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr4---sn-vgqsknz7.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f7fRMO2mSc06Bcdu7ygzjlrJiY_bawPo/vprv/1/playlist_type/DVR/mh/JH/mm/44/mn/sn-vgqsknz7/ms/lva/mv/u/mvi/4/pl/15/dover/11/pacing/0/keepalive/yes/mt/1713400876/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhAMJ0V1xH0pISgzHoYEJpHHAvdYb7jLxP0tx2CUuLs9vrAiEAhl7xxBlvxMbzZDTdyBbAggvKsjEyVog2XjJF2Oz7L2o%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRgIhAPVKqUIoKvAjpPUiL0VkLqYfVPtB-4QelcMrigmk9TEyAiEA3MBwNZoHT52edFvZCteKOdM6ozs6rpMhp66Zhid93kQ%3D/playlist/index.m3u8
 EOL		
 # 53 民視新聞台
