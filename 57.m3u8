@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1715019601/ei/8co4ZsvnFYK0lu8P9JG1mAc/ip/172.183.131.163/id/WHEPzbFA3hw.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr1---sn-vgqsknze.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f6ENm1egB6lO1AfQ7SNSguywIrH1Nt1u-BBhUt8DnRkfvbRauDoyp5GA/vprv/1/playlist_type/DVR/mh/Y3/mm/44/mn/sn-vgqsknze/ms/lva/mv/u/mvi/1/pl/15/dover/11/pacing/0/keepalive/yes/mt/1714997390/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIgZ_ZnjptHiMkladSjL2xg_ZM2flLQKeqzlg4eIqW5gg4CIQC8Rv7Kfcrv9Ckv3R3EAwzZU24MWLtkNbmPlT7DzHo4og%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AHWaYeowRQIgYJcvjidzTsmCNtv9erb8whylvj9YLXV6M-9WpH4Ffl0CIQC-6Ug5bUhQFY-zCyRl5-XRK-xSQarsDAChOjUKjzXezQ%3D%3D/playlist/index.m3u8
 EOL   
 # 58viva購物1台
